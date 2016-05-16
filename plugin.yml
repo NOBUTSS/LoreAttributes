@@ -1,0 +1,15 @@
+name: LoreAttributesRecoded
+main: com.pr0totype2.loreattributes.LoreAttributes
+version: 2.9
+website: http://youtube.com/user/Pr0toPlaysMC
+author: Pr0totype2
+description: >
+             LoreAttributesRecoded, the possibilities are endless!
+commands:
+  loreattributes:
+    description: // Main Command
+    aliases: [loreattributesrecoded, lar, la]
+  hp:
+    description: Display health of yourself.
+  lorestats:
+    description: Display the stat benefits of your lore.

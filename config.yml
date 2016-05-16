@@ -1,0 +1,43 @@
+# ----------------------------------- #
+# LoreAttributesRecoded // Pr0totype2 #
+# ----------------------------------- #
+
+lore:
+  #Add extra health to the player (Extra hearts)
+  #REMEMBER! 1 = HALF A HEART!
+  health:
+    base-health: 20
+    keyword: health
+  regen:
+    keyword: regen
+  attack-speed:
+    #Is this feature enabled? [TRUE/FALSE]
+    enabled: false
+    #Display message? [TRUE/FALSE]
+    display-message: false
+    #If display-message = true, what message would it send?
+    message: "You're too tired to do damage."
+    #What delay must the attack-speed depend on?
+    base-delay: 2
+    #What's the keyword? (For example, if I add "+3 Attack Speed", without the quotes, in my lore of my weapon for example, I'll get +3 Attack Speed when holding my weapon. If I add "+30 Attack Speed", without the quotes, in my lore of my weapon for example, I'll get +30 Attack Speed when holding my weapon.
+    keyword: attack speed
+  damage:
+    keyword: damage
+  dodge:
+    keyword: evasion
+  critical-chance:
+    keyword: critical chance
+  critical-damage:
+    keyword: critical damage
+  life-steal:
+    keyword: life steal
+  armor:
+    keyword: armor
+  restriction:
+    keyword: type
+    display-message: false
+    message: "You can't use the %itemname%"
+  block-chance:
+    keyword: block chance
+  block:
+    keyword: block
